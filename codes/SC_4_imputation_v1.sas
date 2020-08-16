@@ -17,7 +17,7 @@ run;
 data new1;
     set test;
     cmiss = cmiss(of a--c);
-/*  if max(cmiss) > "0" then flag="Y"; */
+/*  if max(cmiss) > "0" then flag="Y";*/
 run;
 
 proc sql;
